@@ -1,0 +1,7 @@
+prebuilt_etc {
+    name: "default-permissions_com.google.android.projection.gearhead",
+    product_specific: true,
+    sub_dir: "default-permissions",
+    src: "default-permissions_com.google.android.projection.gearhead.xml",
+    filename_from_src: true,
+}
