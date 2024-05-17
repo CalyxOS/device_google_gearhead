@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+     SPDX-FileCopyrightText: 2023-2024 The LineageOS Project
+     SPDX-License-Identifier: Apache-2.0
+-->
+<resources>
+    <string name="app_name">Android Auto toggle</string>
+    <string name="android_auto_ia_title">Enable/disable Android Auto</string>
+    <string name="android_auto" translatable="false">Android Auto</string>
+    <string name="android_auto_title">Android Auto support</string>
+    <string name="android_auto_desc">Enable Android Auto support. A reboot is required for changes to take effect.</string>
+</resources>
