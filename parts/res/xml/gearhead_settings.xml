@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+     SPDX-FileCopyrightText: 2023-2024 The LineageOS Project
+     SPDX-License-Identifier: Apache-2.0
+-->
+<PreferenceScreen
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:title="@string/android_auto_activity_title">
+
+    <SwitchPreference
+        android:key="gearhead_pref"
+        android:title="@string/android_auto_title"
+        android:summary="@string/android_auto_desc"/>
+
+</PreferenceScreen>
