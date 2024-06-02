@@ -9,7 +9,7 @@ import android.os.Bundle;
 
 import androidx.preference.Preference;
 import androidx.preference.PreferenceFragment;
-import androidx.preference.SwitchPreference;
+import androidx.preference.SwitchPreferenceCompat;
 
 import org.calyxos.gearheadsupport.R;
 
@@ -17,7 +17,7 @@ public class GearheadFragment extends PreferenceFragment
         implements Preference.OnPreferenceChangeListener {
     private static final String PREF_GEARHEAD = "gearhead_pref";
 
-    private SwitchPreference mGearheadPref;
+    private SwitchPreferenceCompat mGearheadPref;
 
     @Override
     public void onCreatePreferences(Bundle savedInstanceState, String rootKey) {
