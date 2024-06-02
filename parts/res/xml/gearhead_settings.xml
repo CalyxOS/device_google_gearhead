@@ -7,7 +7,7 @@
     xmlns:android="http://schemas.android.com/apk/res/android"
     android:title="@string/android_auto_activity_title">
 
-    <SwitchPreference
+    <SwitchPreferenceCompat
         android:key="gearhead_pref"
         android:title="@string/android_auto_title"
         android:summary="@string/android_auto_desc"/>
