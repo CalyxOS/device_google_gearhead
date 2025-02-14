@@ -10,3 +10,11 @@ prebuilt_etc {
     src: "default-permissions_com.google.android.projection.gearhead.xml",
     filename_from_src: true,
 }
+
+prebuilt_etc {
+    name: "privapp_permissions_com.google.android.projection.gearhead",
+    product_specific: true,
+    sub_dir: "permissions",
+    src: "permissions_com.google.android.projection.gearhead.xml",
+    filename_from_src: true,
+}
