@@ -1,0 +1,3 @@
+# All unpinned blobs below are extracted from komodo AP3A.241005.015
+
+product/priv-app/AndroidAutoStubPrebuilt/AndroidAutoStubPrebuilt.apk
