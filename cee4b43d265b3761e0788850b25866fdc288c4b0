@@ -3,6 +3,23 @@
     {
       "unresolved": true,
       "key": {
+        "uuid": "4009060c_dff13920",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000062
+      },
+      "writtenOn": "2025-02-18T15:20:55Z",
+      "side": 1,
+      "message": "Would it make any sense to *hide* Android Auto until it is turned on, instead of just having it be disabled? Otherwise, apps that are allowed to query it may be able to see that it\u0027s available but disabled, right?",
+      "revId": "cee4b43d265b3761e0788850b25866fdc288c4b0",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    },
+    {
+      "unresolved": true,
+      "key": {
         "uuid": "d0afe8aa_ed36fef7",
         "filename": "parts/res/values/strings.xml",
         "patchSetId": 1
