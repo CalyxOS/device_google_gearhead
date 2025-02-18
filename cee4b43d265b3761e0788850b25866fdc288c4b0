@@ -98,6 +98,30 @@
       },
       "revId": "cee4b43d265b3761e0788850b25866fdc288c4b0",
       "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "30f2e651_5867013b",
+        "filename": "parts/res/values/strings.xml",
+        "patchSetId": 1
+      },
+      "lineNbr": 10,
+      "author": {
+        "id": 1000000
+      },
+      "writtenOn": "2025-02-18T20:25:11Z",
+      "side": 1,
+      "message": "Will do linking later in a follow-up patch.",
+      "parentUuid": "5b06ff1e_94f8589c",
+      "range": {
+        "startLine": 10,
+        "startChar": 66,
+        "endLine": 10,
+        "endChar": 114
+      },
+      "revId": "cee4b43d265b3761e0788850b25866fdc288c4b0",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
     }
   ]
 }
