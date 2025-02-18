@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "e94e40c8_988baa84",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 2
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000004
+      },
+      "writtenOn": "2025-02-18T02:35:45Z",
+      "side": 1,
+      "message": "Not sure if we want this or not, we still have to grant all the privapp permissions",
+      "revId": "19e97d1e56836206db33bf4248c1d6137257e45f",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    }
+  ]
+}
