@@ -31,7 +31,7 @@ public class GearheadFragment extends PreferenceFragment
     public boolean onPreferenceChange(Preference preference, Object newValue) {
         if (preference == mGearheadPref) {
             boolean value = (Boolean) newValue;
-            return GearheadUtils.setApplicationEnabledSetting(getActivity(), value);
+            return GearheadUtils.setApplicationHiddenSetting(getActivity(), !value);
         }
         return false;
     }

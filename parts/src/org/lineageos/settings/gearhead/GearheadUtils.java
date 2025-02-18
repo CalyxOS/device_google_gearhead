@@ -8,6 +8,7 @@ package org.lineageos.settings.gearhead;
 import android.content.Context;
 import android.content.SharedPreferences;
 import android.content.pm.PackageManager;
+import android.os.UserHandle;
 import android.util.Log;
 
 import androidx.preference.PreferenceManager;
@@ -17,16 +18,14 @@ public class GearheadUtils {
     private static final String PREF_FIRST_BOOT = "first_boot";
     private static final String GEARHEAD_PACKAGE = "com.google.android.projection.gearhead";
 
-    public static boolean setApplicationEnabledSetting(Context context, boolean enable) {
+    public static boolean setApplicationHiddenSetting(Context context, boolean hide) {
         PackageManager pm = context.getPackageManager();
         try {
-            pm.setApplicationEnabledSetting(GEARHEAD_PACKAGE, enable ?
-                    PackageManager.COMPONENT_ENABLED_STATE_ENABLED :
-                    PackageManager.COMPONENT_ENABLED_STATE_DISABLED,
-                    PackageManager.DONT_KILL_APP);
+            UserHandle userHandle = UserHandle.getUserHandleForUid(UserHandle.myUserId());
+            pm.setApplicationHiddenSettingAsUser(GEARHEAD_PACKAGE, hide, userHandle);
             return true;
         } catch (Exception e) {
-            Log.e(TAG, "Failed to " + (enable ? "enable" : "disable") + " " + GEARHEAD_PACKAGE, e);
+            Log.e(TAG, "Failed to " + (hide ? "hide" : "unhide") + " " + GEARHEAD_PACKAGE, e);
             return false;
         }
     }
@@ -35,8 +34,8 @@ public class GearheadUtils {
         SharedPreferences prefs = PreferenceManager.getDefaultSharedPreferences(context);
 
         if (isFirstBoot(prefs)) {
-            boolean isGearheadDisabled = setApplicationEnabledSetting(context, false);
-            if (isGearheadDisabled) {
+            boolean isGearheadHidden = setApplicationHiddenSetting(context, true);
+            if (isGearheadHidden) {
                 prefs.edit().putBoolean(PREF_FIRST_BOOT, false).apply();
             }
         }

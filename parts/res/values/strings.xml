@@ -7,5 +7,4 @@
     <string name="app_name">Android Auto toggle</string>
     <string name="android_auto" translatable="false">Android Auto</string>
     <string name="android_auto_title">Android Auto support</string>
-    <string name="android_auto_desc">Enable Android Auto support. A reboot is required for changes to take effect.</string>
 </resources>
