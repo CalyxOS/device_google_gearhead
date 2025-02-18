@@ -11,4 +11,9 @@
         android:key="gearhead_pref"
         android:title="@string/android_auto_title"/>
 
+    <com.android.settingslib.widget.FooterPreference
+        android:key="footer_preference"
+        android:title="@string/android_auto_footer"
+        android:selectable="false"/>
+
 </PreferenceScreen>
