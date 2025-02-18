@@ -8,5 +8,4 @@
     <string name="android_auto_ia_title">Enable/disable Android Auto</string>
     <string name="android_auto" translatable="false">Android Auto</string>
     <string name="android_auto_title">Android Auto support</string>
-    <string name="android_auto_desc">Enable Android Auto support. A reboot is required for changes to take effect.</string>
 </resources>

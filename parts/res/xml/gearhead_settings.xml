@@ -9,7 +9,6 @@
 
     <SwitchPreferenceCompat
         android:key="gearhead_pref"
-        android:title="@string/android_auto_title"
-        android:summary="@string/android_auto_desc"/>
+        android:title="@string/android_auto_title"/>
 
 </PreferenceScreen>
