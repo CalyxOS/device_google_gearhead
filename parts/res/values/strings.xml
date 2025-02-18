@@ -9,4 +9,7 @@
     <string name="android_auto_ia_summary">See all the steps to activate Android Auto support</string>
     <string name="android_auto_activity_title">Android Auto setup</string>
     <string name="android_auto_title">Use Android Auto</string>
+    <string name="android_auto_footer">Setting up Android Auto requires installing additional apps.\n\nNote: you can read our web page about all the steps to finish setting it up and its privacy implications.</string>
+    <string name="android_auto_learn_more">Tap to read more</string>
+    <string name="android_auto_help_url" translatable="false">https://calyxos.org/android-auto</string>
 </resources>
