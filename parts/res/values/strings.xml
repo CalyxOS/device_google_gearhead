@@ -7,4 +7,7 @@
     <string name="app_name">Android Auto toggle</string>
     <string name="android_auto" translatable="false">Android Auto</string>
     <string name="android_auto_title">Android Auto support</string>
+    <string name="android_auto_footer">Setting up Android Auto requires installing additional apps.</string>
+    <string name="android_auto_learn_more">Learn more</string>
+    <string name="android_auto_help_url" translatable="false">https://calyxos.org/android-auto</string>
 </resources>
