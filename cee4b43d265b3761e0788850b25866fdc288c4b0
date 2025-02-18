@@ -20,6 +20,24 @@
     {
       "unresolved": true,
       "key": {
+        "uuid": "17b7b57d_8e52059d",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000000
+      },
+      "writtenOn": "2025-02-18T15:27:30Z",
+      "side": 1,
+      "message": "Oh yes, I think that\u0027d be even better. Good idea!\n\nFor microG being able to see that it\u0027s available but disabled helps apps. Here, that doesn\u0027t matter, we\u0027re doing it this way to not have it be present by defualt, and hiding is much better at doing that.",
+      "parentUuid": "4009060c_dff13920",
+      "revId": "cee4b43d265b3761e0788850b25866fdc288c4b0",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    },
+    {
+      "unresolved": true,
+      "key": {
         "uuid": "d0afe8aa_ed36fef7",
         "filename": "parts/res/values/strings.xml",
         "patchSetId": 1
