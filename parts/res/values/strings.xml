@@ -9,5 +9,4 @@
     <string name="android_auto_ia_summary">See all the steps to activate Android Auto support</string>
     <string name="android_auto_activity_title">Android Auto setup</string>
     <string name="android_auto_title">Use Android Auto</string>
-    <string name="android_auto_desc">Enable Android Auto support. A reboot is required for changes to take effect.</string>
 </resources>
