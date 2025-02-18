@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "d0afe8aa_ed36fef7",
+        "filename": "parts/res/values/strings.xml",
+        "patchSetId": 1
+      },
+      "lineNbr": 10,
+      "author": {
+        "id": 1000004
+      },
+      "writtenOn": "2025-02-18T02:21:22Z",
+      "side": 1,
+      "message": "Not sure if this part is right, I can see Android Auto showing up and disappearing from apps list when I toggle this. We should probably link to a guide in the website with full instructions as well, and/or improve this page wording.",
+      "range": {
+        "startLine": 10,
+        "startChar": 66,
+        "endLine": 10,
+        "endChar": 114
+      },
+      "revId": "cee4b43d265b3761e0788850b25866fdc288c4b0",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    }
+  ]
+}
