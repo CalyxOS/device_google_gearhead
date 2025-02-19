@@ -36,6 +36,24 @@
       "serverId": "35266860-6252-469c-a67d-185064479fc0"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "fb912593_d00b484b",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000004
+      },
+      "writtenOn": "2025-02-19T00:22:37Z",
+      "side": 1,
+      "message": "https://review.calyxos.org/c/CalyxOS/device_google_gearhead/+/35494/",
+      "parentUuid": "17b7b57d_8e52059d",
+      "revId": "cee4b43d265b3761e0788850b25866fdc288c4b0",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "1f23f9ae_c3419009",
@@ -49,6 +67,24 @@
       "writtenOn": "2025-02-18T17:05:22Z",
       "side": 1,
       "message": "```suggestion\n                android:value\u003d\"com.android.settings.category.ia.device\" /\u003e\n```",
+      "revId": "cee4b43d265b3761e0788850b25866fdc288c4b0",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "0d0c56bc_9818ab03",
+        "filename": "parts/AndroidManifest.xml",
+        "patchSetId": 1
+      },
+      "lineNbr": 41,
+      "author": {
+        "id": 1000004
+      },
+      "writtenOn": "2025-02-19T00:22:37Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "1f23f9ae_c3419009",
       "revId": "cee4b43d265b3761e0788850b25866fdc288c4b0",
       "serverId": "35266860-6252-469c-a67d-185064479fc0"
     },
@@ -138,6 +174,30 @@
       "side": 1,
       "message": "Tommy: Settings -\u003e Location has a \"Learn More\" footer.",
       "parentUuid": "30f2e651_5867013b",
+      "range": {
+        "startLine": 10,
+        "startChar": 66,
+        "endLine": 10,
+        "endChar": 114
+      },
+      "revId": "cee4b43d265b3761e0788850b25866fdc288c4b0",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "5bb594cc_7833daff",
+        "filename": "parts/res/values/strings.xml",
+        "patchSetId": 1
+      },
+      "lineNbr": 10,
+      "author": {
+        "id": 1000004
+      },
+      "writtenOn": "2025-02-19T00:22:37Z",
+      "side": 1,
+      "message": "https://review.calyxos.org/c/CalyxOS/device_google_gearhead/+/35495",
+      "parentUuid": "ff3163f2_8d7be457",
       "range": {
         "startLine": 10,
         "startChar": 66,
