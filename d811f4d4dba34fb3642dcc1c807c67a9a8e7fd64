@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "8c223df6_f00aed1c",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 5
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000004
+      },
+      "writtenOn": "2025-02-20T14:50:26Z",
+      "side": 1,
+      "message": "Hiding/unhiding works",
+      "revId": "d811f4d4dba34fb3642dcc1c807c67a9a8e7fd64",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    }
+  ]
+}
