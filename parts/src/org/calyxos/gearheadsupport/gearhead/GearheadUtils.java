@@ -18,16 +18,16 @@ public class GearheadUtils {
     private static final String PREF_FIRST_BOOT = "first_boot";
     private static final String GEARHEAD_PACKAGE = "com.google.android.projection.gearhead";
 
+    public static boolean getApplicationHiddenSetting(Context context) {
+        PackageManager pm = context.getPackageManager();
+        UserHandle userHandle = UserHandle.of(context.getUserId());
+        return pm.getApplicationHiddenSettingAsUser(GEARHEAD_PACKAGE, userHandle);
+    }
+
     public static boolean setApplicationHiddenSetting(Context context, boolean hide) {
         PackageManager pm = context.getPackageManager();
-        try {
-            UserHandle userHandle = UserHandle.getUserHandleForUid(UserHandle.myUserId());
-            pm.setApplicationHiddenSettingAsUser(GEARHEAD_PACKAGE, hide, userHandle);
-            return true;
-        } catch (Exception e) {
-            Log.e(TAG, "Failed to " + (hide ? "hide" : "unhide") + " " + GEARHEAD_PACKAGE, e);
-            return false;
-        }
+        UserHandle userHandle = UserHandle.of(context.getUserId());
+        return pm.setApplicationHiddenSettingAsUser(GEARHEAD_PACKAGE, hide, userHandle);
     }
 
     public static void startService(Context context) {
