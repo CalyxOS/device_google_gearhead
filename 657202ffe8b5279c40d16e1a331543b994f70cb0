@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "5b7e0c67_801c6043",
+        "filename": "parts/AndroidManifest.xml",
+        "patchSetId": 2
+      },
+      "lineNbr": 11,
+      "author": {
+        "id": 1000000
+      },
+      "writtenOn": "2025-02-27T22:16:23Z",
+      "side": 0,
+      "message": "With this removal, we can also change what cert it\u0027s signed with. But that can be in a follow-up.",
+      "revId": "657202ffe8b5279c40d16e1a331543b994f70cb0",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    }
+  ]
+}

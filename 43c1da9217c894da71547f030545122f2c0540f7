@@ -1,0 +1,38 @@
+{
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "a225df44_798b74d1",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 2
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000000
+      },
+      "writtenOn": "2025-02-27T22:16:23Z",
+      "side": 1,
+      "message": "Need to see what it does for\n\n1. Work Profile\n2. Private Space\n3. Secondary users\n\nFor all 3 cases:\nA. Existing users, aka those who are on 6.4.2\nB. Fresh installs, with this commit - aka 6.5.x and later.",
+      "revId": "43c1da9217c894da71547f030545122f2c0540f7",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "ffa4b6af_8d6a5d38",
+        "filename": "parts/privapp_allowlist_org.calyxos.gearheadsupport.xml",
+        "patchSetId": 2
+      },
+      "lineNbr": 8,
+      "author": {
+        "id": 1000000
+      },
+      "writtenOn": "2025-02-27T22:16:23Z",
+      "side": 1,
+      "message": "And without this we could\u0027ve removed priv-app too, oh well.",
+      "revId": "43c1da9217c894da71547f030545122f2c0540f7",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    }
+  ]
+}
