@@ -21,7 +21,7 @@ public class GearheadUtils {
     public static boolean setApplicationHiddenSetting(Context context, boolean hide) {
         PackageManager pm = context.getPackageManager();
         try {
-            UserHandle userHandle = UserHandle.getUserHandleForUid(UserHandle.myUserId());
+            UserHandle userHandle = UserHandle.of(context.getUserId());
             pm.setApplicationHiddenSettingAsUser(GEARHEAD_PACKAGE, hide, userHandle);
             return true;
         } catch (Exception e) {

@@ -8,7 +8,6 @@ android_app {
 
     srcs: ["src/**/*.java"],
     resource_dirs: ["res"],
-    certificate: "platform",
     platform_apis: true,
     system_ext_specific: true,
     privileged: true,
@@ -20,4 +19,14 @@ android_app {
     optimize: {
         proguard_flags_files: ["proguard.flags"],
     },
+
+    required: ["privapp_allowlist_org.calyxos.gearheadsupport"],
+}
+
+prebuilt_etc {
+    name: "privapp_allowlist_org.calyxos.gearheadsupport",
+    src: "privapp_allowlist_org.calyxos.gearheadsupport.xml",
+    system_ext_specific: true,
+    sub_dir: "permissions",
+    filename_from_src: true,
 }
