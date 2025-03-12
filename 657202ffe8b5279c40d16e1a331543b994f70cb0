@@ -16,6 +16,24 @@
       "message": "With this removal, we can also change what cert it\u0027s signed with. But that can be in a follow-up.",
       "revId": "657202ffe8b5279c40d16e1a331543b994f70cb0",
       "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "0a77db0c_c2a7a22f",
+        "filename": "parts/AndroidManifest.xml",
+        "patchSetId": 2
+      },
+      "lineNbr": 11,
+      "author": {
+        "id": 1000002
+      },
+      "writtenOn": "2025-03-12T18:26:22Z",
+      "side": 0,
+      "message": "Done",
+      "parentUuid": "5b7e0c67_801c6043",
+      "revId": "657202ffe8b5279c40d16e1a331543b994f70cb0",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
     }
   ]
 }

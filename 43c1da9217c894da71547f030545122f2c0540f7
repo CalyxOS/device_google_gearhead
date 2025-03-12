@@ -18,6 +18,24 @@
       "serverId": "35266860-6252-469c-a67d-185064479fc0"
     },
     {
+      "unresolved": true,
+      "key": {
+        "uuid": "1162980c_bf17f4fe",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 2
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000002
+      },
+      "writtenOn": "2025-03-12T18:26:22Z",
+      "side": 1,
+      "message": "A and B would both be handled by a boot receiver in theory. In practice, boot receiver is not triggered for 2. B could be handled by adding USER_INITIALIZED intent to manifest receiver. Every other intent requires context-registered receiver which leaves 2A unresolved. I don\u0027t have any ideas on how to resolve that at the moment",
+      "parentUuid": "a225df44_798b74d1",
+      "revId": "43c1da9217c894da71547f030545122f2c0540f7",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    },
+    {
       "unresolved": false,
       "key": {
         "uuid": "ffa4b6af_8d6a5d38",
@@ -31,6 +49,24 @@
       "writtenOn": "2025-02-27T22:16:23Z",
       "side": 1,
       "message": "And without this we could\u0027ve removed priv-app too, oh well.",
+      "revId": "43c1da9217c894da71547f030545122f2c0540f7",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "16d91fa5_9b38dfc0",
+        "filename": "parts/privapp_allowlist_org.calyxos.gearheadsupport.xml",
+        "patchSetId": 2
+      },
+      "lineNbr": 8,
+      "author": {
+        "id": 1000002
+      },
+      "writtenOn": "2025-03-12T18:26:22Z",
+      "side": 1,
+      "message": "This is only needed due to using hide afaict",
+      "parentUuid": "ffa4b6af_8d6a5d38",
       "revId": "43c1da9217c894da71547f030545122f2c0540f7",
       "serverId": "35266860-6252-469c-a67d-185064479fc0"
     }
