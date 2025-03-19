@@ -38,6 +38,24 @@
     {
       "unresolved": false,
       "key": {
+        "uuid": "147521d5_75eb3437",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 2
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000002
+      },
+      "writtenOn": "2025-03-19T06:59:17Z",
+      "side": 1,
+      "message": "Resolved by https://review.calyxos.org/c/CalyxOS/platform_packages_apps_Settings/+/37610",
+      "parentUuid": "1162980c_bf17f4fe",
+      "revId": "43c1da9217c894da71547f030545122f2c0540f7",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    },
+    {
+      "unresolved": false,
+      "key": {
         "uuid": "ffa4b6af_8d6a5d38",
         "filename": "parts/privapp_allowlist_org.calyxos.gearheadsupport.xml",
         "patchSetId": 2
