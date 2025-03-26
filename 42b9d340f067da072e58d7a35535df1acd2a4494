@@ -16,6 +16,23 @@
       "message": "To be merged alongside https://review.calyxos.org/c/CalyxOS/platform_packages_apps_Bellis/+/37530",
       "revId": "42b9d340f067da072e58d7a35535df1acd2a4494",
       "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "206b0ada_41450daa",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 4
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000062
+      },
+      "writtenOn": "2025-03-26T20:35:28Z",
+      "side": 1,
+      "message": "Tested working in main user, secondary user, and work profile: Android Auto is hidden by default.",
+      "revId": "42b9d340f067da072e58d7a35535df1acd2a4494",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
     }
   ]
 }
