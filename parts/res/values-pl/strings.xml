@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="android_auto_title">Korzystaj z Android Auto</string>
+    <string name="android_auto_learn_more">Dotknij, aby dowiedzieć się więcej</string>
+    <string name="android_auto_footer">Konfiguracja Android Auto wymaga zainstalowania dodatkowych aplikacji.\n\nUwaga: możesz przeczytać naszą stronę internetową na temat wszystkich kroków, aby dokończyć konfigurację oraz zobaczyć jaki ma wpływ na prywatność.</string>
+    <string name="app_name">Przełącznik Android Auto</string>
+    <string name="android_auto_ia_title">Włączanie/wyłączanie Android Auto</string>
+    <string name="android_auto_ia_summary">Zobacz wszystkie kroki, aby aktywować obsługę Android Auto</string>
+    <string name="android_auto_activity_title">Konfiguracja Android Auto</string>
+</resources>

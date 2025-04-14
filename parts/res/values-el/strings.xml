@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Εναλλαγή Android Auto</string>
+    <string name="android_auto_ia_title">Ενεργοποίηση/απενεργοποίηση Android Auto</string>
+    <string name="android_auto_ia_summary">Δείτε όλα τα βήματα για να ενεργοποιήσετε την υποστήριξη Android Auto</string>
+    <string name="android_auto_activity_title">Ρύθμιση Android Auto</string>
+    <string name="android_auto_learn_more">Πατήστε για να διαβάσετε περισσότερα</string>
+    <string name="android_auto_title">Χρήση Android Auto</string>
+    <string name="android_auto_footer">Η ρύθμιση του Android Auto απαιτεί την εγκατάσταση πρόσθετων εφαρμογών.\n\nΣημείωση: μπορείτε να διαβάσετε την ιστοσελίδα μας σχετικά με όλα τα βήματα για να ολοκληρώσετε τη ρύθμισή του και τις επιπτώσεις του στην ιδιωτικότητα.</string>
+</resources>

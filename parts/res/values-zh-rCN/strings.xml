@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="android_auto_ia_summary">查看激活 Android Auto 支持的所有步骤</string>
+    <string name="android_auto_title">使用 Android Auto</string>
+    <string name="android_auto_learn_more">轻按阅读更多</string>
+    <string name="android_auto_ia_title">启用/停用 Android Auto</string>
+    <string name="android_auto_activity_title">Android Auto 设置</string>
+    <string name="app_name">切换 Android Auto</string>
+    <string name="android_auto_footer">设置 Android Auto 需要安装额外的应用。\n\n注：你可以在我们的网站上阅读完成设置它的全部步骤的网页及其隐私影响。</string>
+</resources>

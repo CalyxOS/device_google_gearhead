@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Перемикач Android Auto</string>
+    <string name="android_auto_ia_title">Увімкнути/вимкнути Android Auto</string>
+    <string name="android_auto_ia_summary">Перегляньте всі кроки для активації підтримки Android Auto</string>
+    <string name="android_auto_activity_title">Налаштування Android Auto</string>
+    <string name="android_auto_title">Використовуйте Android Auto</string>
+    <string name="android_auto_learn_more">Торкніться, щоб прочитати більше</string>
+    <string name="android_auto_footer">Щоб налаштувати Android Auto, потрібно встановити додаткові програми.\n\nПримітка: ви можете прочитати на нашій веб-сторінці всі кроки для завершення налаштування та наслідки для конфіденційності.</string>
+</resources>

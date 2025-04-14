@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Android Auto aç/kapa</string>
+    <string name="android_auto_ia_summary">Android Auto desteğini etkinleştirmenin tüm adımlarına bak</string>
+    <string name="android_auto_footer">Android Auto\'yu kurmak fazladan uygulama yüklemeyi gerektirir.\n\nNot: Kurulumu tamamlamak için tüm adımları ve gizliliğe etkilerini web sitemizde okuyabilirsiniz.</string>
+    <string name="android_auto_learn_more">Daha fazlasını okumak için dokunun</string>
+    <string name="android_auto_activity_title">Android Auto kurulumu</string>
+    <string name="android_auto_ia_title">Android Auto\'yu etkinleştir/devre dışı bırak</string>
+    <string name="android_auto_title">Android Auto Kullan</string>
+</resources>

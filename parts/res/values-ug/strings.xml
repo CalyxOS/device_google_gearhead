@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="android_auto_ia_summary">Android Auto قوللاشنى ئاكتىپلاشنىڭ بارلىق قەدەم باسقۇچلىرىنى كۆرسىتىدۇ</string>
+    <string name="android_auto_activity_title">Android Auto ئورنىتىش</string>
+    <string name="android_auto_title">Android Auto ئىشلىتىش</string>
+    <string name="android_auto_learn_more">چېكىلسە تەپسىلاتىنى ئوقۇغىلى بولىدۇ</string>
+    <string name="android_auto_ia_title">Android Auto قوزغات/چەكلە</string>
+    <string name="app_name">Android Auto ئالماشتۇر</string>
+    <string name="android_auto_footer">Android Auto نى تەڭشەش ئۈچۈن قوشۇمچە ئەپ ئورنىتىشنى تەلەپ قىلىدۇ.\n\nئەسكەرتىش: تەڭشەشنى تاماملاش ھەققىدىكى بارلىق قەدەم باسقۇچ ۋە ئۇنىڭ شەخسىيەت تەسىرىنى تور بېكىتىمىزدىن ئوقۇلايسىز.</string>
+</resources>

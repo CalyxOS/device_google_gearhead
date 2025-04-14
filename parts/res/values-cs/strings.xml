@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Přepínač Android Auto</string>
+    <string name="android_auto_ia_title">Povolit/zakázat Android Auto</string>
+    <string name="android_auto_activity_title">Nastavení Android Auto</string>
+    <string name="android_auto_footer">Nastavení Android Auto vyžaduje instalaci dodatečných aplikací.\n\nPoznámka: na naší webové stránce najdete všechny kroky k dokončení nastavování a informace ohledně dopadů na soukromí.</string>
+    <string name="android_auto_ia_summary">Podívejte se na všechny kroky k aktivaci podpory Android Auto</string>
+    <string name="android_auto_title">Používat Android Auto</string>
+    <string name="android_auto_learn_more">Klepnutím zjistíte více</string>
+</resources>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Android Auto kapcsoló</string>
+    <string name="android_auto_ia_summary">Tekintse meg a lépéseket az Android Auto támogatás aktiváláshoz</string>
+    <string name="android_auto_ia_title">Android Auto kikapcsolása/bekapcsolása</string>
+    <string name="android_auto_activity_title">Android Auto feltelepítés</string>
+    <string name="android_auto_title">Android Auto használata</string>
+    <string name="android_auto_footer">Az Andtoid Auto telepítéséhez szükség van további appokra is.\n\nMegjegyzés: a telepítés részletes lépéseiről olvashat az oldalunkon, beleértve az adatvédelmi vonatkozásokat is.</string>
+    <string name="android_auto_learn_more">Koppintson a továbbiak elolvasásához</string>
+</resources>

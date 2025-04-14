@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="android_auto_ia_title">Android Auto aktivieren/deaktivieren</string>
+    <string name="android_auto_ia_summary">Siehe alle Schritte zur Aktivierung der Android Auto-Unterstützung</string>
+    <string name="android_auto_activity_title">Einrichtung von Android Auto</string>
+    <string name="android_auto_title">Android Auto verwenden</string>
+</resources>

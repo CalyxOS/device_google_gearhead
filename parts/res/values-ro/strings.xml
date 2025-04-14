@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Comutator Android Auto</string>
+    <string name="android_auto_ia_title">Activează/dezactivează Android Auto</string>
+    <string name="android_auto_ia_summary">Vezi toți pașii pentru activarea suportului Android Auto</string>
+    <string name="android_auto_activity_title">Configurare Android Auto</string>
+    <string name="android_auto_learn_more">Atinge pentru a citi mai multe</string>
+    <string name="android_auto_title">Utilizează Android Auto</string>
+    <string name="android_auto_footer">Configurarea Android Auto necesită instalarea de aplicații suplimentare.\n\nNotă: Poți citi pagina noastră web despre toți pașii pentru a termina configurarea acesteia și implicațiile sale de confidențialitate.</string>
+</resources>

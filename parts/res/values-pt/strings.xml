@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Alternador do Android Auto</string>
+    <string name="android_auto_title">Usar o Android Auto</string>
+    <string name="android_auto_learn_more">Toque para ler mais</string>
+    <string name="android_auto_activity_title">Configuração do Android Auto</string>
+    <string name="android_auto_ia_summary">Veja todos os passos para ativar o apoio ao Android Auto</string>
+    <string name="android_auto_footer">Para configurar o Android Auto, é necessário instalar apps adicionais.\n\nObservação: pode ler a nossa página web sobre todos os passos para concluir a sua configuração e as suas implicações à privacidade.</string>
+    <string name="android_auto_ia_title">Ativar/desativar o Android Auto</string>
+</resources>

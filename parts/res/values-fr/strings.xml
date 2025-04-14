@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="android_auto_title">Utiliser Android Auto</string>
+    <string name="android_auto_ia_title">Activer/désactiver Android Auto</string>
+    <string name="android_auto_ia_summary">Voir toutes les étapes pour activer Android Auto</string>
+    <string name="android_auto_activity_title">Configuration Android Auto</string>
+    <string name="android_auto_footer">L\'installation d\'autres applications est nécessaire pour configurer Android Auto\n\nNote : vous pouvez lire notre page web concernant toutes les étapes pour finir la configuration et les implications en termes de confidentialité.</string>
+    <string name="app_name">Bouton Android Auto</string>
+    <string name="android_auto_learn_more">Appuyez pour en savoir plus</string>
+</resources>
