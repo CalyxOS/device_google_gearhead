@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "b9a2205b_ba36725c",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000004
+      },
+      "writtenOn": "2025-04-15T16:40:13Z",
+      "side": 1,
+      "message": "Picked manually from weblate until we figure out the issue",
+      "revId": "f651ce20ebcac2ceca113ed0becf18b4e0410c51",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    }
+  ]
+}
