@@ -1,2 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
-<resources></resources>
+<resources>
+    <string name="app_name">تبديل Android Auto</string>
+    <string name="android_auto_ia_title">تشغيل/تعطيل Android Auto</string>
+    <string name="android_auto_ia_summary">شاهد كل الخطوات لتفعيل دعم Android Auto</string>
+    <string name="android_auto_activity_title">تثبيت Android Auto</string>
+    <string name="android_auto_title">استخدام Android Auto</string>
+    <string name="android_auto_footer">إعداد Android Auto يتطلب تثبيت تطبيقات إضافية.\n\nملاحظة : يمكنك قراءة صفحتنا على الويب عن كل الخطوات لإنهاء تثبيته و تبعاته الخصوصية</string>
+    <string name="android_auto_learn_more">انقر لقراءة المزيد</string>
+</resources>

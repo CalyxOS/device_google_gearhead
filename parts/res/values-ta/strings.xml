@@ -1,2 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
-<resources></resources>
+<resources>
+    <string name="app_name">ஆண்ட்ராய்டு தானி மாறுதல்</string>
+    <string name="android_auto_ia_title">ஆண்ட்ராய்டு ஆட்டோவை இயக்கு/முடக்கு</string>
+    <string name="android_auto_ia_summary">ஆண்ட்ராய்டு ஆட்டோ ஆதரவை செயல்படுத்துவதற்கான அனைத்து படிகளையும் பார்க்கவும்</string>
+    <string name="android_auto_activity_title">ஆண்ட்ராய்டு தானி அமைவு</string>
+    <string name="android_auto_title">ஆண்ட்ராய்டு ஆட்டோவைப் பயன்படுத்தவும்</string>
+    <string name="android_auto_footer">ஆண்ட்ராய்டு ஆட்டோவை அமைப்பதற்கு கூடுதல் ஆப்சை நிறுவ வேண்டும். \n\nகுறிப்பு: எங்கள் இணையப் பக்கத்தை அமைத்து முடிப்பதற்கான அனைத்து படிகள் மற்றும் அதன் தனியுரிமை தாக்கங்கள் பற்றி நீங்கள் படிக்கலாம்.</string>
+    <string name="android_auto_learn_more">மேலும் படிக்க தட்டவும்</string>
+</resources>
