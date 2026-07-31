@@ -1,2 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
-<resources></resources>
+<resources>
+    <string name="android_auto_ia_title">Aktivera/inaktivera Android Auto</string>
+    <string name="android_auto_ia_summary">Se alla steg för att aktivera Android Auto support</string>
+    <string name="android_auto_activity_title">Android Auto konfiguration</string>
+    <string name="android_auto_title">Använd Android Auto</string>
+    <string name="android_auto_learn_more">Klicka för att läsa mer</string>
+</resources>

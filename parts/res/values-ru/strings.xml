@@ -1,2 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
-<resources></resources>
+<resources>
+    <string name="app_name">Переключатель Android Auto</string>
+    <string name="android_auto_ia_title">Включить/Выключить Android Auto</string>
+    <string name="android_auto_ia_summary">Посмотреть все шаги по активации поддержки Android Auto</string>
+    <string name="android_auto_activity_title">Настройка Android Auto</string>
+    <string name="android_auto_title">Использовать Android Auto</string>
+    <string name="android_auto_footer">Настройка Android Auto требует установки дополнительных приложений.\n\nПримечание: вы можете ознакомиться с информацией на нашей веб-странице, где подробно описаны все шаги по завершению настройки и последствия для конфиденциальности.</string>
+    <string name="android_auto_learn_more">Нажмите, чтобы прочитать больше</string>
+</resources>
