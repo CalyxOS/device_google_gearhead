@@ -42,7 +42,7 @@
             </intent-filter>
             <meta-data
                 android:name="com.android.settings.category"
-                android:value="com.android.settings.category.ia.device" />
+                android:value="com.android.settings.category.ia.apps" />
             <meta-data
                 android:name="com.android.settings.title"
                 android:resource="@string/android_auto_ia_title" />
@@ -51,7 +51,7 @@
                 android:resource="@string/android_auto_ia_summary" />
             <meta-data
                 android:name="com.android.settings.order"
-                android:value="99" />
+                android:value="-1006" />
         </activity>
 
     </application>
