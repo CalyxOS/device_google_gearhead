@@ -5,6 +5,7 @@
 
 package org.calyxos.gearheadsupport.gearhead;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.text.TextUtils;
 
@@ -20,6 +21,7 @@ import org.calyxos.gearheadsupport.R;
 
 public class GearheadFragment extends PreferenceFragmentCompat
         implements Preference.OnPreferenceChangeListener {
+    private static final boolean DEBUG = false;
     private static final String PREF_GEARHEAD = "gearhead_pref";
     private static final String PREF_FOOTER = "footer_preference";
 
@@ -34,8 +36,20 @@ public class GearheadFragment extends PreferenceFragmentCompat
         FooterPreference footerPreference = findPreference(PREF_FOOTER);
         String helpUrl = getString(R.string.android_auto_help_url);
         if (footerPreference != null && !TextUtils.isEmpty(helpUrl)) {
-            footerPreference.setLearnMoreAction(v -> startActivity(
-                    HelpUtils.getHelpIntent(getContext(), helpUrl, /* backupContext= */ "")));
+            footerPreference.setLearnMoreAction(v -> {
+                Intent helpIntent = HelpUtils.getHelpIntent(getContext(), helpUrl, /* backupContext= */ "");
+                if (intent != null) {
+                    helpIntent.addFlags(Intent.FLAG_ACTIVITY_NEW_TASK | Intent.FLAG_ACTIVITY_CLEAR_TOP);
+                    try {
+                        startActivity(helpIntent);
+                    } catch (ActivityNotFoundException e) {
+                        if (DEBUG) Log.e("GearheadSupport", "Using fallback to launch help url", e);
+                        Intent browserIntent = new Intent(Intent.ACTION_VIEW, Uri.parse(helpUrl));
+                        browserIntent.addFlags(Intent.FLAG_ACTIVITY_NEW_TASK);
+                        getContext().startActivity(browserIntent);
+                    }
+                }
+            });
             footerPreference.setLearnMoreText(getString(R.string.android_auto_learn_more));
         }
     }
