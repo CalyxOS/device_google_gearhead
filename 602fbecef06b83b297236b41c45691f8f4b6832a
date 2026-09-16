@@ -1,0 +1,38 @@
+{
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "343677da_582f0757",
+        "filename": "parts/AndroidManifest.xml",
+        "patchSetId": 3
+      },
+      "lineNbr": 50,
+      "author": {
+        "id": 1000235
+      },
+      "writtenOn": "2026-09-16T16:09:15Z",
+      "side": 1,
+      "message": "Don\u0027t know if we want this here or in Settings-\u003eConnected Devices since there is already an Android Auto preference in the latter",
+      "revId": "602fbecef06b83b297236b41c45691f8f4b6832a",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "51c47bcc_5c9c9b9c",
+        "filename": "parts/AndroidManifest.xml",
+        "patchSetId": 3
+      },
+      "lineNbr": 59,
+      "author": {
+        "id": 1000235
+      },
+      "writtenOn": "2026-09-16T16:09:15Z",
+      "side": 1,
+      "message": "If kept in apps, this value needs to be tweaked to find the best placement",
+      "revId": "602fbecef06b83b297236b41c45691f8f4b6832a",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    }
+  ]
+}
