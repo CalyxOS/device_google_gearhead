@@ -5,4 +5,6 @@
     <string name="android_auto_activity_title">Android Auto konfiguration</string>
     <string name="android_auto_title">Använd Android Auto</string>
     <string name="android_auto_learn_more">Klicka för att läsa mer</string>
+    <string name="app_name">Reglage för Android Auto</string>
+    <string name="android_auto_footer">Konfiguration av Android Auto kräver installation av ytterligare appar.\n\nObs! Läs gärna vår webbsida om alla steg för att slutföra konfigurationen och dess integritetskonsekvenser.</string>
 </resources>

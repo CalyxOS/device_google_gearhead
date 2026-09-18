@@ -1,2 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
-<resources></resources>
+<resources>
+    <string name="app_name">מתג אנדרואיד אוטו</string>
+    <string name="android_auto_ia_title">הפעלת/כיבוי אנדרואיד אוטו</string>
+    <string name="android_auto_ia_summary">הצגת כל השלבים להפעלת תמיכה באנדרואיד אוטו</string>
+    <string name="android_auto_activity_title">הגדרת אנדרואיד אוטו</string>
+    <string name="android_auto_title">שימוש באנדרואיד אוטו</string>
+    <string name="android_auto_footer">הגדרת אנדרואיד אוטו דורשת התקנת יישומונים נוספים.\n\nהערה: ניתן לקרוא את העמוד שלנו המסביר על כל הצעדים לסיום ההגדרות והשלכות הפרטיות.</string>
+    <string name="android_auto_learn_more">לחץ לקרוא עוד</string>
+</resources>
