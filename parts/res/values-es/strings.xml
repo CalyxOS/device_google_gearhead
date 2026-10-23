@@ -1,2 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
-<resources></resources>
+<resources>
+    <string name="app_name">Interruptor Android Auto</string>
+    <string name="android_auto_ia_title">Habilitar/Deshabilitar Android Auto</string>
+    <string name="android_auto_ia_summary">Consulte los pasos para activar el soporte de Android Auto</string>
+    <string name="android_auto_activity_title">Configuración de Android Auto</string>
+    <string name="android_auto_title">Usar Android Auto</string>
+    <string name="android_auto_footer">Configurar Android Auto requiere instalar aplicaciones adicionales\n\nNota: puedes leer nuestra página web para averiguar los pasos restantes para terminar de configurar Android Auto y sus implicaciones de privacidad.</string>
+    <string name="android_auto_learn_more">Pulsa para leer más</string>
+</resources>
